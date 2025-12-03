@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Estrela</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="STYLES.CSS">
+</head>
+<body>
+    <header class="bg-purple text-white py-4">
+        <div class="container">
+            <h1 class="mb-0">📚🌟 Livraria da Estrela</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#livros">Livros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero py-5">
+        <div class="container text-center">
+            <h2 class="display-4 mb-4">Bem-vindo à Livraria da Estrela</h2>
+            <p class="lead mb-4">Aqui temos uma ampla seleção de livros clássicos para todos os gostos</p>
+            <a href="#livros" class="btn btn-primary btn-lg btn-explore">Explorar Livros</a>
+        </div>
+    </section>
+
+    <section id="livros" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Nossos Livros</h2>
+            
+            <div class="row mb-4">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Buscar livro...">
+                </div>
+                <div class="col-md-6">
+                    <select class="form-select">
+                        <option selected>Todas as categorias</option>
+                        <option value="nacionais">Nacionais</option>
+                        <option value="romance">Romance</option>
+                        <option value="mistério">Mistério</option>
+                        <option value="infantil">Infantil</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-white text-center">
+                            <img src="https://m.media-amazon.com/images/I/91zdxRRvabL._UF1000,1000_QL80_.jpg" alt="Capa de O Hobbit" class="book-cover img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">O Hobbit</h5>
+                            <p class="card-text"><strong>J.R.R. Tolkien</strong></p>
+                            <p class="text-muted">Ficção • Fantasia</p>
+                            <p class="h5 text-primary">R$ 45,90</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-white text-center">
+                            <img src="https://m.media-amazon.com/images/I/81WXzsT86ZL._UF1000,1000_QL80_.jpg" alt="Capa — A Hora da Estrela" class="book-cover img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">A Hora da Estrela</h5>
+                            <p class="card-text"><strong>Clarice Lispector</strong></p>
+                            <p class="text-muted">Nacional • Romance</p>
+                            <p class="h5 text-primary">R$ 40,50</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-white text-center">
+                            <img src="https://m.media-amazon.com/images/I/81gOkEhzgIL._UF1000,1000_QL80_.jpg" alt="Capa — Orgulho e Preconceito" class="book-cover img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Orgulho e Preconceito</h5>
+                            <p class="card-text"><strong>Jane Austen</strong></p>
+                            <p class="text-muted">Romance • Clássico</p>
+                            <p class="h5 text-primary">R$ 42,00</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-white text-center">
+                            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSyJdcmH-AIQ0okDZ4MTUogZG4a4OFOqsQqN9zoCLnAK_kjd-aP8pZJOuC5zW5Fh6uGdF5CyuKAJHs9P536kl4HBfSFm9DkDNEaNYjnWyJNxoB7SsWp715d6g" alt="Capa de ENSN" class="book-cover img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">E Não Sobrou Nenhum</h5>
+                            <p class="card-text"><strong>Agatha Christie</strong></p>
+                            <p class="text-muted">Mistério • Suspense</p>
+                            <p class="h5 text-primary">R$ 35,75</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-white text-center">
+                            <img src="https://static.cedet.com.br/produtos_imagem_principal_large/31648-525x791.jpg?v=1750276156" alt="Capa de O Grande Gatsby" class="book-cover img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">O Grande Gatsby</h5>
+                            <p class="card-text"><strong>F. Scott Fitzgerald</strong></p>
+                            <p class="text-muted">Romance • Clássico</p>
+                            <p class="h5 text-primary">R$ 39,99</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-header bg-white text-center">
+                            <img src="https://m.media-amazon.com/images/I/81QQRYFvmhL._AC_UF1000,1000_QL80_.jpg" alt="Capa de Sherlock Holmes" class="book-cover img-fluid">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Sherlock Holmes</h5>
+                            <p class="card-text"><strong>Arthur Conan Doyle</strong></p>
+                            <p class="text-muted">Mistério • Aventura</p>
+                            <p class="h5 text-primary">R$ 44,50</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <button class="btn btn-primary w-100">Adicionar ao Carrinho</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="bg-light py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Sobre Nós</h2>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <p class="about-text">A <strong>Livraria Estrela</strong> é uma plataforma dedicada a trazer os melhores livros para você! Temos uma vasta coleção de títulos em diferentes categorias, garantimos qualidade e variedade para todos os gostos.</p>
+                    <p class="about-text">Nosso compromisso é oferecer os melhores preços e um atendimento de excelência. Acreditamos que cada livro é uma janela para novos mundos, novas histórias e novas aventuras esperando por você 📚.</p>
+                    <p class="about-text">Venha descobrir seu próximo livro favorito conosco! Seja ficção, romance, mistério ou clássicos atemporais, temos tudo o que você procura. Na Livraria Estrela, cada página é especial! 🌟💜</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="mb-4 text-center">Entre em Contato</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nome" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="nome" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Livraria da Estrela. By Luísa.</p>
+            <p>
+                <a href="#" class="text-white me-3">Facebook</a>
+                <a href="#" class="text-white me-3">Instagram</a>
+                <a href="#" class="text-white">TikTok</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
