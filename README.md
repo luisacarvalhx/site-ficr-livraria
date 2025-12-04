@@ -2,9 +2,9 @@
 
 Sobre o Projeto:
 
-A Livraria Estrela é um mini site desenvolvido como projeto avaliativo da disciplina Linguagem de Marcação e Formatação.
+A Livraria Estrela é um site desenvolvido como projeto avaliativo da disciplina Linguagem de Marcação e Formatação.
 O objetivo do site é apresentar uma livraria fictícia com uma seleção de livros clássicos, incluindo sessão de catálogo, área “Sobre Nós” e formulário de contato.
-O site foi desenvolvido utilizando HTML, CSS próprio e Bootstrap, seguindo os requisitos obrigatórios do projeto.
+O site foi desenvolvido utilizando HTML, CSS e Bootstrap, seguindo os requisitos obrigatórios do projeto.
 
 Estudante: Maria Luísa Carvalho de Lima
 Curso: Análise e Desenvolvimento de Sistema (ADS)
